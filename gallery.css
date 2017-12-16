@@ -1,0 +1,115 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+header {
+    background-image: url(images/background-header.jpg);
+    position: fixed;
+    width: 100%;
+}
+
+h1 {
+    font-size: 5em;
+    text-align: center;
+    color: white;
+    margin: 50px 0;
+}
+
+h2 {
+    margin-left: 20px;
+}
+
+body {
+    background-image: url(images/gallery.jpg);
+    background-repeat: repeat-x repeat-y;
+    z-index: 1;
+}
+
+#logo {
+    margin-left: 10px;
+}
+
+nav {
+    float: right;
+}
+
+ul li {
+    display: inline-block;
+    margin: 26px 10px;
+    padding: 5px 10px;
+    font-size: 18px;
+    font-weight: bold;
+    opacity: 0.75;
+    transition: 0.5s;
+}
+
+ul li:hover {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+ul li a {
+    color: white;
+    font-family: "Lucida Sans Typewriter", "Lucida Console", monaco, "Bitstream Vera Sans Mono", monospace;
+    ;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    text-align: justify;
+}
+
+section {
+    margin: 0 250px;
+    padding: 100px 0 0 0;
+}
+
+#article-list {
+    width: 100%;
+    background-color: white;
+    margin: 50 auto;
+    border-radius: 5px;
+    margin-bottom: 0px;
+}
+
+article {
+    padding: 25px 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.gallery {
+    width: 100%;
+}
+
+footer {
+    background-color: gray;
+    height: 30px;
+    text-align: center;
+    position: relative;
+    line-height: 30px;
+    color: white;
+    font-size: 10pt;
+}
+
+#contact {
+    display: table;
+    height: 60px;
+    bottom: 0;
+    width: 100%;
+}
+
+.logo {
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.logo:hover {
+    opacity: 1;
+    transition: 0.5s;
+}

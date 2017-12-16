@@ -1,0 +1,60 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(images/background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: fixed;
+    z-index: 1;
+}
+
+#logo {
+    margin-left: 10px;
+}
+
+nav {
+    float: right;
+}
+
+ul li {
+    display: inline-block;
+    margin: 10px 10px;
+    padding: 5px 10px;
+    font-size: 18px;
+    font-weight: bold;
+    opacity: 0.75;
+    transition: 0.5s;
+}
+
+ul li:hover {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+ul li a {
+    color: white;
+    font-family: "Lucida Sans Typewriter", "Lucida Console", monaco, "Bitstream Vera Sans Mono", monospace;;
+}
+
+a {
+    text-decoration: none;
+}
+
+.home-page {
+    display: table;
+    margin: 0 auto;
+    color: white;
+    border: 3px solid white;
+    text-align: center;
+    padding: 100px 150px;
+    margin-top: 5%;
+    font-size: 25px;
+    font-family: "Lucida Sans Typewriter", "Lucida Console", monaco, "Bitstream Vera Sans Mono", monospace;;
+    z-index: 2;  
+}
+
+
+
